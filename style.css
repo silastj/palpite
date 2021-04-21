@@ -1,0 +1,30 @@
+header,
+nav,
+section,
+article,
+aside{
+    border:1px solid #000;
+    width: 100%;
+    padding: 3% 0;
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article input{
+    height: auto;
+    margin: 0 10px;
+}
+.resNumber{
+    display: flex;
+}
+.resNumber p{
+    margin-right: 2px;
+}
+.aside.deleta{
+    display: none;
+}
+.resNumber.acabou p{
+    display: none;
+}
